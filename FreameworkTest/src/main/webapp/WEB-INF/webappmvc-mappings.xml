@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp-mvc>
+  <module>
+    <model></model>
+    <view>/WEB-INF/views/Registration.jsp</view>
+    <mapping>/registration</mapping>
+  </module>
+  <module>
+    <model>model.UserLogin</model>
+    <view>/WEB-INF/views/Login.jsp</view>
+    <mapping>/login</mapping>
+  </module>
+  <module>
+    <model></model>
+    <view></view>
+    <mapping>/logout</mapping>
+  </module>
+  <module>
+    <model>model.Users</model>
+    <view>/WEB-INF/views/Home.jsp</view>
+    <mapping>/home</mapping>
+  </module>
+</webapp-mvc>
