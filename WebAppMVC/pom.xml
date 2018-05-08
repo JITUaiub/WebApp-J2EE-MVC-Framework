@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>WebAppMVC</groupId>
+  <artifactId>WebAppMVC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>WebAppMVC</name>
+  <url>http://maven.apache.org</url>
+  
+  <!-- 	  Version Properties -->
+		<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		  	<jUnitVersion>3.8.1</jUnitVersion>
+		  	<servlet-API>3.0.1</servlet-API>
+		  	<jsp-API>2.3.1</jsp-API>
+		</properties>
+<!-- 	  Dependency Properties -->
+		<dependencies>
+		    <dependency>
+		      <groupId>junit</groupId>
+		      <artifactId>junit</artifactId>
+		      <version>${jUnitVersion}</version>
+		      <scope>provided</scope>
+		    </dependency>
+<!-- 		    https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+			<dependency>
+			    <groupId>javax.servlet</groupId>
+			    <artifactId>javax.servlet-api</artifactId>
+			    <version>${servlet-API}</version>
+			    <scope>provided</scope>
+			</dependency>
+		    
+<!-- 		 	 https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+			<dependency>
+			    <groupId>javax.servlet.jsp</groupId>
+			    <artifactId>javax.servlet.jsp-api</artifactId>
+			    <version>${jsp-API}</version>
+			    <scope>provided</scope>
+			</dependency>		  
+		</dependencies>
+<!-- 		<build> -->
+<!-- 			<plugins> -->
+<!-- 				<plugin> -->
+<!-- 					<groupId>org.apache.maven.plugins</groupId> -->
+<!-- 					<artifactId>maven-war-plugin</artifactId> -->
+<!-- 					<version>3.1.0</version> -->
+<!-- 				</plugin> -->
+<!-- 			</plugins> -->
+<!-- 		</build> -->
+</project>
