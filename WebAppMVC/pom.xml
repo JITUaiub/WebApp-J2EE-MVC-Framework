@@ -5,7 +5,13 @@
   <groupId>WebAppMVC</groupId>
   <artifactId>WebAppMVC</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
+  
+  <parent>
+       <groupId>FreameworkTest</groupId>
+	  <artifactId>FreameworkTest</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+   </parent>
 
   <name>WebAppMVC</name>
   <url>http://maven.apache.org</url>

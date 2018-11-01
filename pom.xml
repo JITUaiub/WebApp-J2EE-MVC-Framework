@@ -3,10 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>FreameworkTest</groupId>
   <artifactId>FreameworkTest</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>FreameworkTest Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>WebAppMVC</module>
+   </modules>
   <!-- 	  Version Properties -->
 		<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
