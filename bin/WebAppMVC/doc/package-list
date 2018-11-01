@@ -1,0 +1,5 @@
+com.webappmvc.mvc.controller
+com.webappmvc.mvc.model
+com.webappmvc.mvc.modelandview
+com.webappmvc.mvc.parser
+com.webappmvc.mvc.startup

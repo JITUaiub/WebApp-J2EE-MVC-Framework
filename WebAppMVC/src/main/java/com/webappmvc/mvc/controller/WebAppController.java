@@ -1,4 +1,11 @@
 package com.webappmvc.mvc.controller;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -6,13 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.webappmvc.mvc.model.Model;
 import com.webappmvc.mvc.modelandview.ModelAndView;
-
-import java.io.IOException;
-import java.lang.reflect.Method;
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 /**
  * This class act like a master or global controller that every request and response will need to go through this controller.
  * @author Md. Nashid Kamal
@@ -85,8 +85,7 @@ public class WebAppController extends HttpServlet {
 			}else {
 				modelName = "empty";
 			}
-		} catch (NoSuchMethodException | SecurityException | InstantiationException
-				| IllegalArgumentException | InvocationTargetException | IllegalAccessException e) {
+		} catch (Exception e) {
 			//e.printStackTrace();
 		}
         String viewName = modelandView.getView();
