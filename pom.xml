@@ -31,5 +31,6 @@
 		</build>
   <modules>
     <module>WebAppMVC</module>
+    <module>TestApp</module>
    </modules>
 </project>
