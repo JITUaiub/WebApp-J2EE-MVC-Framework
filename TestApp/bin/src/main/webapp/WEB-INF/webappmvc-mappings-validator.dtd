@@ -1,0 +1,5 @@
+<!ELEMENT webapp-mvc (module+)>
+	<!ELEMENT module (model,view, mapping)>
+		<!ELEMENT model (#PCDATA)>
+		<!ELEMENT view (#PCDATA)>
+		<!ELEMENT mapping (#PCDATA)>
